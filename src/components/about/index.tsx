@@ -1,4 +1,3 @@
-import React from 'react'
 import { _GIRL_CODE, _MAN, _SPARK } from '../../assets/jpeg'
 import { _ARC, _SWIRL, _WAVE } from '../../assets/svgs'
 

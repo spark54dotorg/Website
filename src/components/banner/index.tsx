@@ -1,4 +1,3 @@
-import React from 'react'
 import { _TEAM } from '../../assets/jpeg'
 
 const Banner = () => {
