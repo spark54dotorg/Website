@@ -12,6 +12,7 @@ const _TEAM:ImageType = { img: TEAM, alt: 'team members and beneficiaries'};
 const _HEADER_PHOTO:ImageType = { img: HEADER_PHOTO, alt: 'team members and beneficiaries'};
 const _GIRL_CODE:ImageType = { img: GIRL_CODE, alt: 'team members and beneficiaries'};
 const _SPARK:ImageType = { img: SPARK, alt: 'team members and beneficiaries'};
+const _BOYS:ImageType = { img: BOYS, alt: 'team members and beneficiaries'};
 
 export { 
   _MAN, 
@@ -19,4 +20,5 @@ export {
   _HEADER_PHOTO,
   _GIRL_CODE,
   _SPARK,
+  _BOYS,
 };

@@ -1,6 +1,4 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import { _MAN } from '../../assets/jpeg'
 import { _TWITTER, _LINKEDIN } from '../../assets/svgs'
 import { TeamShape } from './team.data'
 
