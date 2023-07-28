@@ -17,8 +17,8 @@ const Member = ({twitter, linkedin, role, image, name }: TeamShape) => {
             </span>
 
             <span className='flex gap-2'>
-              <Link to={twitter}> <img src={_TWITTER.img} alt={_TWITTER.alt}/> </Link>
-              <Link to={linkedin}> <img src={_LINKEDIN.img} alt={_LINKEDIN.alt}/> </Link>
+              <Link to={twitter} target='_blank'> <img src={_TWITTER.img} alt={_TWITTER.alt}/> </Link>
+              <Link to={linkedin} target='_blank'> <img src={_LINKEDIN.img} alt={_LINKEDIN.alt}/> </Link>
             </span>
           </div>
         </div>

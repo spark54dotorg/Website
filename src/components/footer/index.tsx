@@ -9,7 +9,7 @@ const Footer = () => {
         {/* about column */}
         <div className=' md:w-[30%] w-full'>
           <img src={_LOGO.img} alt={_LOGO.alt} width="100"/>
-          <p>Download the app by clicking the link below download the app by clicking the link below download the app by clicking the link below download the app by clicking the link below :</p>
+          {/* <p>Download the app by clicking the link below download the app by clicking the link below download the app by clicking the link below download the app by clicking the link below :</p> */}
         </div>
 
         {/* site column */}
@@ -37,9 +37,9 @@ const Footer = () => {
         <div className='md:w-[17.5%] w-full'>
           <h3 className=' font-bold mb-8' >Contact</h3>
             <ul>
-              <li className=' leading-loose flex gap-4'> <img src={_PHONE.img} alt={_PHONE.alt}/> <a href='tel()'>(406) 555-0120</a></li>
+              {/* <li className=' leading-loose flex gap-4'> <img src={_PHONE.img} alt={_PHONE.alt}/> <a href='tel()'>(406) 555-0120</a></li> */}
               <li className=' leading-loose flex gap-4'> <img src={_EMAIL.img} alt={_EMAIL.alt}/> <a href='mail-to()'>hello@spark54.org</a></li>
-              <li className=' leading-loose flex gap-4'> <img src={_LOCATION.img} alt={_LOCATION.alt}/> <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span></li>
+              {/* <li className=' leading-loose flex gap-4'> <img src={_LOCATION.img} alt={_LOCATION.alt}/> <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span></li> */}
             </ul>
         </div>
         
@@ -47,10 +47,10 @@ const Footer = () => {
         {/* Social media column */}
         <div className='md:w-[17.5%] w-full'>
           <h3 className=' font-bold mb-8' >Contact</h3>
-            <Link to='' className='inline-block'> <img src={_FACEBOOK.img} alt={_FACEBOOK.alt} width='40'/> </Link>
-            <Link to='' className='inline-block'> <img src={_TWITTER.img} alt={_TWITTER.alt} width='40'/> </Link>
-            <Link to='' className='inline-block'> <img src={_LINKEDIN.img} alt={_LINKEDIN.alt} width='40'/> </Link>
-            <Link to='' className='inline-block'> <img src={_INSTAGRAM.img} alt={_INSTAGRAM.alt} width='40'/> </Link>
+            <Link to='/' target='_blank' className='inline-block'> <img src={_FACEBOOK.img} alt={_FACEBOOK.alt} width='40'/> </Link>
+            <Link to='https://twitter.com/Spark54inc' target='_blank' className='inline-block'> <img src={_TWITTER.img} alt={_TWITTER.alt} width='40'/> </Link>
+            <Link to='https://www.linkedin.com/company/afctinitiative/' target='_blank' className='inline-block'> <img src={_LINKEDIN.img} alt={_LINKEDIN.alt} width='40'/> </Link>
+            <Link to='https://www.instagram.com/spark54inc/' target='_blank' className='inline-block'> <img src={_INSTAGRAM.img} alt={_INSTAGRAM.alt} width='40'/> </Link>
         </div>
 
 

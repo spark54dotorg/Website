@@ -9,7 +9,7 @@ import TeamMembers from "../../components/teamMembers"
 
 const Homepage = () => {
   return (
-    <>
+    <section>
       <Header />
       <Brands />
       <About />
@@ -18,7 +18,7 @@ const Homepage = () => {
       <Programs />
       <TeamMembers />
       <Footer />
-    </>
+    </section>
   )
 }
 
