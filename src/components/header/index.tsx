@@ -1,6 +1,6 @@
 import { _ARC, _ARROW_RIGHT, _SWIRL, _SWOOSH, _WAVE } from '../../assets/svgs';
 import {PrimaryButton, SecondaryButton} from '../button';
-import { _HEADER_PHOTO, _MAN } from '../../assets/jpeg';
+import { _HEADER_PHOTO } from '../../assets/jpeg';
 import { motion } from 'framer-motion';
 import { CHILD_ANIMATION, PARENT_ANIMATION } from '../../utils';
 

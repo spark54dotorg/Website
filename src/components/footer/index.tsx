@@ -1,4 +1,4 @@
-import { _EMAIL, _FACEBOOK, _INSTAGRAM, _LINKEDIN, _LOCATION, _LOGO, _PHONE, _TWITTER } from '../../assets/svgs'
+import { _EMAIL, _FACEBOOK, _INSTAGRAM, _LINKEDIN, _LOGO, _TWITTER } from '../../assets/svgs'
 import { Link, NavLink } from 'react-router-dom'
 
 const Footer = () => {
