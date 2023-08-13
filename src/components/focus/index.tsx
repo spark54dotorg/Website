@@ -1,4 +1,4 @@
-import { _AI, _AI_FULL, _AR_FULL, _CYBER, _CYBER_FULL, _GREEN_PILL, _ORANGE_PILL, _SLAB, _VR, _YELLOW_PILL } from '../../assets/svgs'
+import { _AI, _CYBER, _VR,  } from '../../assets/svgs'
 
 const Focus = () => {
   return (
