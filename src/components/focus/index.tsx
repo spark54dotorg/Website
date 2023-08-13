@@ -5,36 +5,34 @@ const Focus = () => {
    <section className='flex relative my-20'>
 
 
-    <div className='bg-[#D76A03] min-w-[25%] max-w-[50%] absolute h-[100%] md:flex hidden'></div>
-
-    <div className='h-auto flex  items-center justify-center w-[1280px] mx-auto'>
-    <div className='flex md:flex-row flex-col gap-2 w-full'>
+    <div className='h-auto flex  items-center justify-center w-[1280px] max-w-[90%] mx-auto'>
+    <div className='gap-2 w-full'>
       <div className='relative flex'>
      
         
-        <div className='bg-[#D76A03] flex justify-center items-center rounded-e-[80px] p-[50px] '>
-          <h1 className='md:text-[34px] text-[24px] font-semibold text-white'>
+        <div className='flex justify-center items-center rounded-e-[80px] mx-auto'>
+          <h1 className='md:text-[60px] text-[35px] font-semibold leading-tigh text-center'>
               We are focused on <br></br>
               3 technologies
           </h1>
         </div>
       </div>
 
-      <div className='flex'>
+      <div className='flex md:flex-row flex-col gap-10 justify-center mt-10'>
 
-        <div className='relative '>
-          <img src={_CYBER_FULL.img} alt={_CYBER_FULL.alt}/>
-          <h2 className='mx-auto text-center'>Cyber security</h2>
+        <div className='relative w-[350px] h-[350px] bg-[#8EA604] flex items-center justify-center rounded-md'>
+          <img src={_CYBER.img} alt={_CYBER.alt}/>
+          <h2 className='mx-auto text-center absolute bottom-5 text-xl text-white font-semibold'>Cyber security</h2>
         </div>
 
-        <div className='relative'>
-          <img src={_AI_FULL.img} alt={_AI_FULL.alt}/>
-          <h2 className='mx-auto text-center'>Artificial Intelligence</h2>
+        <div className='relative w-[350px] h-[350px] bg-[#F5BB00] flex items-center justify-center rounded-md'>
+          <img src={_AI.img} alt={_AI.alt}/>
+          <h2 className='mx-auto text-center absolute bottom-5 text-xl text-white font-semibold'>Artificial Intelligence</h2>
         </div>
 
-        <div className='relative'>
-          <img src={_AR_FULL.img} alt={_AR_FULL.alt}/>
-          <h2 className='mx-auto text-center'>AR/VR</h2>
+        <div className='relative w-[350px] h-[350px] bg-[#D76A03] flex items-center justify-center rounded-md'>
+          <img src={_VR.img} alt={_VR.alt}/>
+          <h2 className='mx-auto text-center absolute bottom-5 text-xl text-white font-semibold'>AR/VR</h2>
         </div>
 
 

@@ -666,6 +666,14 @@ video {
   top: 0.5rem;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -835,6 +843,18 @@ video {
   height: 100%;
 }
 
+.h-\[300\] {
+  height: 300;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[350px\] {
+  height: 350px;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -859,6 +879,10 @@ video {
   width: 316px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[90\%\] {
   width: 90%;
 }
@@ -871,16 +895,20 @@ video {
   width: 100%;
 }
 
-.min-w-\[25\%\] {
-  min-width: 25%;
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .min-w-full {
   min-width: 100%;
 }
 
-.max-w-\[50\%\] {
-  max-width: 50%;
+.max-w-\[90\%\] {
+  max-width: 90%;
 }
 
 .flex-1 {
@@ -1103,14 +1131,14 @@ video {
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
-.bg-\[\#D76A03\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(215 106 3 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#FFFAF5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 250 245 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400 {
@@ -1123,6 +1151,21 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#8EA604\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 166 4 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F5BB00\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 187 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#D76A03\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(215 106 3 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1131,10 +1174,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.p-\[50px\] {
-  padding: 50px;
 }
 
 .px-0 {
@@ -1233,6 +1272,11 @@ video {
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1432,6 +1476,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:items-center {
