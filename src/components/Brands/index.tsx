@@ -10,7 +10,7 @@ const Brands = () => {
       <div className=" w-[90%] md:w-[1280px] mx-auto my-20">
         <div className="my-20 flex md:items-center items-start justify-between md:flex-row flex-col gap-10">
           <h1 className="md:text-[34px] text-[24px] font-semibold">
-            Brands we love ❤️
+            Sponsors we love ❤️
           </h1>
 
           <Link to="/">
